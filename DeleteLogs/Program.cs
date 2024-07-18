@@ -15,7 +15,6 @@ namespace DeleteLogs {
 		private static int howOldFilesToDelete;
 
 		static void Main(string[] args) {
-            Console.ReadLine();
 			Log("Started: " + DateTime.Now.ToString("yyyy.MM.dd HH:mm:ss"));
 			parameters = CreateParameters(args);
 			if(GetParam("h")!=null || GetParam("help")!=null) {
